@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668CCD90275AA79EFA06BC72 /* Pods_TimeLiveActivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9857E9241F2E218811814D /* Pods_TimeLiveActivityTests.framework */; };
+		A031E6422C3465B0452459C2 /* Pods_TimeLiveActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A18CABC8173379E889A706A /* Pods_TimeLiveActivity.framework */; };
+		D31F42272D4DE3B9004CF16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F421D2D4DE3B9004CF16A /* AppDelegate.swift */; };
+		D31F42282D4DE3B9004CF16A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42242D4DE3B9004CF16A /* SceneDelegate.swift */; };
+		D31F42292D4DE3B9004CF16A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42252D4DE3B9004CF16A /* ViewController.swift */; };
+		D31F422A2D4DE3B9004CF16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31F421E2D4DE3B9004CF16A /* Assets.xcassets */; };
+		D31F422C2D4DE3B9004CF16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31F42212D4DE3B9004CF16A /* LaunchScreen.storyboard */; };
+		D31F422D2D4DE3B9004CF16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31F42232D4DE3B9004CF16A /* Main.storyboard */; };
+		D31F42302D4DE3BD004CF16A /* TimeLiveActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F422E2D4DE3BD004CF16A /* TimeLiveActivityTests.swift */; };
+		D31F42342D4DE3C0004CF16A /* TimeLiveActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42312D4DE3C0004CF16A /* TimeLiveActivityUITests.swift */; };
+		D31F42352D4DE3C0004CF16A /* TimeLiveActivityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42322D4DE3C0004CF16A /* TimeLiveActivityUITestsLaunchTests.swift */; };
+		D31F42372D4DE549004CF16A /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31F42362D4DE549004CF16A /* ActivityKit.framework */; };
+		D31F423E2D4DE58B004CF16A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31F423D2D4DE58B004CF16A /* WidgetKit.framework */; };
+		D31F42402D4DE58B004CF16A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31F423F2D4DE58B004CF16A /* SwiftUI.framework */; };
+		D31F42502D4DE58D004CF16A /* TimeLiveWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D31F423C2D4DE58B004CF16A /* TimeLiveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D31F425C2D4DE598004CF16A /* TimeLiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42572D4DE598004CF16A /* TimeLiveWidget.swift */; };
+		D31F425D2D4DE598004CF16A /* TimeLiveWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42582D4DE598004CF16A /* TimeLiveWidgetBundle.swift */; };
+		D31F425E2D4DE598004CF16A /* TimeLiveWidgetControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42592D4DE598004CF16A /* TimeLiveWidgetControl.swift */; };
+		D31F425F2D4DE598004CF16A /* TimeLiveWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F425A2D4DE598004CF16A /* TimeLiveWidgetLiveActivity.swift */; };
+		D31F42602D4DE598004CF16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31F42552D4DE598004CF16A /* Assets.xcassets */; };
+		D31F42632D4DE695004CF16A /* TimeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F42622D4DE695004CF16A /* TimeAttributes.swift */; };
+		E540E9BB35A004ABC8C98161 /* Pods_TimeLiveActivity_TimeLiveActivityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734F62639DFD437BD385D523 /* Pods_TimeLiveActivity_TimeLiveActivityUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31F42002D4DE3AC004CF16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31F41E12D4DE3AA004CF16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31F41E82D4DE3AA004CF16A;
+			remoteInfo = TimeLiveActivity;
+		};
+		D31F420A2D4DE3AC004CF16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31F41E12D4DE3AA004CF16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31F41E82D4DE3AA004CF16A;
+			remoteInfo = TimeLiveActivity;
+		};
+		D31F424D2D4DE58D004CF16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31F41E12D4DE3AA004CF16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31F423B2D4DE58B004CF16A;
+			remoteInfo = TimeLiveWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D31F424F2D4DE58D004CF16A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D31F42502D4DE58D004CF16A /* TimeLiveWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F9857E9241F2E218811814D /* Pods_TimeLiveActivityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLiveActivityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3697887EC22B72B5FE61C8B1 /* Pods-TimeLiveActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivity.release.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivity/Pods-TimeLiveActivity.release.xcconfig"; sourceTree = "<group>"; };
+		7202FA06C6665C5A0DAE5F31 /* Pods-TimeLiveActivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivityTests.release.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivityTests/Pods-TimeLiveActivityTests.release.xcconfig"; sourceTree = "<group>"; };
+		734F62639DFD437BD385D523 /* Pods_TimeLiveActivity_TimeLiveActivityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLiveActivity_TimeLiveActivityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A18CABC8173379E889A706A /* Pods_TimeLiveActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLiveActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA778BF91275BE0D1DEEE5C /* Pods-TimeLiveActivity-TimeLiveActivityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivity-TimeLiveActivityUITests.release.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivity-TimeLiveActivityUITests/Pods-TimeLiveActivity-TimeLiveActivityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A1BB6DBEB5F8BDADA5A0C42 /* Pods-TimeLiveActivity-TimeLiveActivityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivity-TimeLiveActivityUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivity-TimeLiveActivityUITests/Pods-TimeLiveActivity-TimeLiveActivityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DB722C8C24DC6CE7313E0B /* Pods-TimeLiveActivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivityTests.debug.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivityTests/Pods-TimeLiveActivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D31F41E92D4DE3AA004CF16A /* TimeLiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLiveActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F41FF2D4DE3AC004CF16A /* TimeLiveActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLiveActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F42092D4DE3AC004CF16A /* TimeLiveActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLiveActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F421D2D4DE3B9004CF16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D31F421E2D4DE3B9004CF16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31F421F2D4DE3B9004CF16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31F42202D4DE3B9004CF16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D31F42222D4DE3B9004CF16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31F42242D4DE3B9004CF16A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D31F42252D4DE3B9004CF16A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D31F422E2D4DE3BD004CF16A /* TimeLiveActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveActivityTests.swift; sourceTree = "<group>"; };
+		D31F42312D4DE3C0004CF16A /* TimeLiveActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveActivityUITests.swift; sourceTree = "<group>"; };
+		D31F42322D4DE3C0004CF16A /* TimeLiveActivityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveActivityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D31F42362D4DE549004CF16A /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = SDKROOT; };
+		D31F423C2D4DE58B004CF16A /* TimeLiveWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeLiveWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F423D2D4DE58B004CF16A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D31F423F2D4DE58B004CF16A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D31F42552D4DE598004CF16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31F42562D4DE598004CF16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31F42572D4DE598004CF16A /* TimeLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveWidget.swift; sourceTree = "<group>"; };
+		D31F42582D4DE598004CF16A /* TimeLiveWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveWidgetBundle.swift; sourceTree = "<group>"; };
+		D31F42592D4DE598004CF16A /* TimeLiveWidgetControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveWidgetControl.swift; sourceTree = "<group>"; };
+		D31F425A2D4DE598004CF16A /* TimeLiveWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLiveWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		D31F42622D4DE695004CF16A /* TimeAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAttributes.swift; sourceTree = "<group>"; };
+		EE0DFB1A211C81935F8924E2 /* Pods-TimeLiveActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLiveActivity.debug.xcconfig"; path = "Target Support Files/Pods-TimeLiveActivity/Pods-TimeLiveActivity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31F41E62D4DE3AA004CF16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42372D4DE549004CF16A /* ActivityKit.framework in Frameworks */,
+				A031E6422C3465B0452459C2 /* Pods_TimeLiveActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F41FC2D4DE3AC004CF16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668CCD90275AA79EFA06BC72 /* Pods_TimeLiveActivityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F42062D4DE3AC004CF16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E540E9BB35A004ABC8C98161 /* Pods_TimeLiveActivity_TimeLiveActivityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F42392D4DE58B004CF16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42402D4DE58B004CF16A /* SwiftUI.framework in Frameworks */,
+				D31F423E2D4DE58B004CF16A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4D0CB05B00571A2296EE93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DFB1A211C81935F8924E2 /* Pods-TimeLiveActivity.debug.xcconfig */,
+				3697887EC22B72B5FE61C8B1 /* Pods-TimeLiveActivity.release.xcconfig */,
+				9A1BB6DBEB5F8BDADA5A0C42 /* Pods-TimeLiveActivity-TimeLiveActivityUITests.debug.xcconfig */,
+				8BA778BF91275BE0D1DEEE5C /* Pods-TimeLiveActivity-TimeLiveActivityUITests.release.xcconfig */,
+				D1DB722C8C24DC6CE7313E0B /* Pods-TimeLiveActivityTests.debug.xcconfig */,
+				7202FA06C6665C5A0DAE5F31 /* Pods-TimeLiveActivityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D31F41E02D4DE3AA004CF16A = {
+			isa = PBXGroup;
+			children = (
+				D31F42262D4DE3B9004CF16A /* TimeLiveActivity */,
+				D31F422F2D4DE3BD004CF16A /* TimeLiveActivityTests */,
+				D31F42332D4DE3C0004CF16A /* TimeLiveActivityUITests */,
+				D31F425B2D4DE598004CF16A /* TimeLiveWidget */,
+				D31F41EA2D4DE3AA004CF16A /* Products */,
+				7E4D0CB05B00571A2296EE93 /* Pods */,
+				D50564F14F47FAFF63FC5BE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D31F41EA2D4DE3AA004CF16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31F41E92D4DE3AA004CF16A /* TimeLiveActivity.app */,
+				D31F41FF2D4DE3AC004CF16A /* TimeLiveActivityTests.xctest */,
+				D31F42092D4DE3AC004CF16A /* TimeLiveActivityUITests.xctest */,
+				D31F423C2D4DE58B004CF16A /* TimeLiveWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31F42262D4DE3B9004CF16A /* TimeLiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				D31F421D2D4DE3B9004CF16A /* AppDelegate.swift */,
+				D31F421E2D4DE3B9004CF16A /* Assets.xcassets */,
+				D31F421F2D4DE3B9004CF16A /* Info.plist */,
+				D31F42212D4DE3B9004CF16A /* LaunchScreen.storyboard */,
+				D31F42232D4DE3B9004CF16A /* Main.storyboard */,
+				D31F42242D4DE3B9004CF16A /* SceneDelegate.swift */,
+				D31F42252D4DE3B9004CF16A /* ViewController.swift */,
+			);
+			path = TimeLiveActivity;
+			sourceTree = "<group>";
+		};
+		D31F422F2D4DE3BD004CF16A /* TimeLiveActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31F422E2D4DE3BD004CF16A /* TimeLiveActivityTests.swift */,
+			);
+			path = TimeLiveActivityTests;
+			sourceTree = "<group>";
+		};
+		D31F42332D4DE3C0004CF16A /* TimeLiveActivityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D31F42312D4DE3C0004CF16A /* TimeLiveActivityUITests.swift */,
+				D31F42322D4DE3C0004CF16A /* TimeLiveActivityUITestsLaunchTests.swift */,
+			);
+			path = TimeLiveActivityUITests;
+			sourceTree = "<group>";
+		};
+		D31F425B2D4DE598004CF16A /* TimeLiveWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D31F42552D4DE598004CF16A /* Assets.xcassets */,
+				D31F42562D4DE598004CF16A /* Info.plist */,
+				D31F42572D4DE598004CF16A /* TimeLiveWidget.swift */,
+				D31F42582D4DE598004CF16A /* TimeLiveWidgetBundle.swift */,
+				D31F42592D4DE598004CF16A /* TimeLiveWidgetControl.swift */,
+				D31F425A2D4DE598004CF16A /* TimeLiveWidgetLiveActivity.swift */,
+				D31F42622D4DE695004CF16A /* TimeAttributes.swift */,
+			);
+			path = TimeLiveWidget;
+			sourceTree = "<group>";
+		};
+		D50564F14F47FAFF63FC5BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31F42362D4DE549004CF16A /* ActivityKit.framework */,
+				8A18CABC8173379E889A706A /* Pods_TimeLiveActivity.framework */,
+				734F62639DFD437BD385D523 /* Pods_TimeLiveActivity_TimeLiveActivityUITests.framework */,
+				1F9857E9241F2E218811814D /* Pods_TimeLiveActivityTests.framework */,
+				D31F423D2D4DE58B004CF16A /* WidgetKit.framework */,
+				D31F423F2D4DE58B004CF16A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D31F41E82D4DE3AA004CF16A /* TimeLiveActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F42122D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivity" */;
+			buildPhases = (
+				3D0F86018DFC9409960A0594 /* [CP] Check Pods Manifest.lock */,
+				D31F41E52D4DE3AA004CF16A /* Sources */,
+				D31F41E62D4DE3AA004CF16A /* Frameworks */,
+				D31F41E72D4DE3AA004CF16A /* Resources */,
+				D31F424F2D4DE58D004CF16A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31F424E2D4DE58D004CF16A /* PBXTargetDependency */,
+			);
+			name = TimeLiveActivity;
+			productName = TimeLiveActivity;
+			productReference = D31F41E92D4DE3AA004CF16A /* TimeLiveActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31F41FE2D4DE3AC004CF16A /* TimeLiveActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F42172D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivityTests" */;
+			buildPhases = (
+				12453003A73E883927825F15 /* [CP] Check Pods Manifest.lock */,
+				D31F41FB2D4DE3AC004CF16A /* Sources */,
+				D31F41FC2D4DE3AC004CF16A /* Frameworks */,
+				D31F41FD2D4DE3AC004CF16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31F42012D4DE3AC004CF16A /* PBXTargetDependency */,
+			);
+			name = TimeLiveActivityTests;
+			productName = TimeLiveActivityTests;
+			productReference = D31F41FF2D4DE3AC004CF16A /* TimeLiveActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31F42082D4DE3AC004CF16A /* TimeLiveActivityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F421A2D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivityUITests" */;
+			buildPhases = (
+				F3C306517510434B379A24B8 /* [CP] Check Pods Manifest.lock */,
+				D31F42052D4DE3AC004CF16A /* Sources */,
+				D31F42062D4DE3AC004CF16A /* Frameworks */,
+				D31F42072D4DE3AC004CF16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31F420B2D4DE3AC004CF16A /* PBXTargetDependency */,
+			);
+			name = TimeLiveActivityUITests;
+			productName = TimeLiveActivityUITests;
+			productReference = D31F42092D4DE3AC004CF16A /* TimeLiveActivityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D31F423B2D4DE58B004CF16A /* TimeLiveWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F42522D4DE58D004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveWidgetExtension" */;
+			buildPhases = (
+				D31F42382D4DE58B004CF16A /* Sources */,
+				D31F42392D4DE58B004CF16A /* Frameworks */,
+				D31F423A2D4DE58B004CF16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLiveWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TimeLiveWidgetExtension;
+			productReference = D31F423C2D4DE58B004CF16A /* TimeLiveWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31F41E12D4DE3AA004CF16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D31F41E82D4DE3AA004CF16A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D31F41FE2D4DE3AC004CF16A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D31F41E82D4DE3AA004CF16A;
+					};
+					D31F42082D4DE3AC004CF16A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D31F41E82D4DE3AA004CF16A;
+					};
+					D31F423B2D4DE58B004CF16A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D31F41E42D4DE3AA004CF16A /* Build configuration list for PBXProject "TimeLiveActivity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31F41E02D4DE3AA004CF16A;
+			productRefGroup = D31F41EA2D4DE3AA004CF16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31F41E82D4DE3AA004CF16A /* TimeLiveActivity */,
+				D31F41FE2D4DE3AC004CF16A /* TimeLiveActivityTests */,
+				D31F42082D4DE3AC004CF16A /* TimeLiveActivityUITests */,
+				D31F423B2D4DE58B004CF16A /* TimeLiveWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31F41E72D4DE3AA004CF16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F422A2D4DE3B9004CF16A /* Assets.xcassets in Resources */,
+				D31F422C2D4DE3B9004CF16A /* LaunchScreen.storyboard in Resources */,
+				D31F422D2D4DE3B9004CF16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F41FD2D4DE3AC004CF16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F42072D4DE3AC004CF16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F423A2D4DE58B004CF16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42602D4DE598004CF16A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12453003A73E883927825F15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeLiveActivityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D0F86018DFC9409960A0594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeLiveActivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C306517510434B379A24B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeLiveActivity-TimeLiveActivityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31F41E52D4DE3AA004CF16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42272D4DE3B9004CF16A /* AppDelegate.swift in Sources */,
+				D31F42282D4DE3B9004CF16A /* SceneDelegate.swift in Sources */,
+				D31F42292D4DE3B9004CF16A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F41FB2D4DE3AC004CF16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42302D4DE3BD004CF16A /* TimeLiveActivityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F42052D4DE3AC004CF16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42342D4DE3C0004CF16A /* TimeLiveActivityUITests.swift in Sources */,
+				D31F42352D4DE3C0004CF16A /* TimeLiveActivityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F42382D4DE58B004CF16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F42632D4DE695004CF16A /* TimeAttributes.swift in Sources */,
+				D31F425C2D4DE598004CF16A /* TimeLiveWidget.swift in Sources */,
+				D31F425D2D4DE598004CF16A /* TimeLiveWidgetBundle.swift in Sources */,
+				D31F425E2D4DE598004CF16A /* TimeLiveWidgetControl.swift in Sources */,
+				D31F425F2D4DE598004CF16A /* TimeLiveWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31F42012D4DE3AC004CF16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31F41E82D4DE3AA004CF16A /* TimeLiveActivity */;
+			targetProxy = D31F42002D4DE3AC004CF16A /* PBXContainerItemProxy */;
+		};
+		D31F420B2D4DE3AC004CF16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31F41E82D4DE3AA004CF16A /* TimeLiveActivity */;
+			targetProxy = D31F420A2D4DE3AC004CF16A /* PBXContainerItemProxy */;
+		};
+		D31F424E2D4DE58D004CF16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31F423B2D4DE58B004CF16A /* TimeLiveWidgetExtension */;
+			targetProxy = D31F424D2D4DE58D004CF16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D31F42212D4DE3B9004CF16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31F42202D4DE3B9004CF16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D31F42232D4DE3B9004CF16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31F42222D4DE3B9004CF16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D31F42132D4DE3AC004CF16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0DFB1A211C81935F8924E2 /* Pods-TimeLiveActivity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F492K7L68M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLiveActivity/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31F42142D4DE3AC004CF16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3697887EC22B72B5FE61C8B1 /* Pods-TimeLiveActivity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F492K7L68M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLiveActivity/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D31F42152D4DE3AC004CF16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D31F42162D4DE3AC004CF16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31F42182D4DE3AC004CF16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DB722C8C24DC6CE7313E0B /* Pods-TimeLiveActivityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeLiveActivity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeLiveActivity";
+			};
+			name = Debug;
+		};
+		D31F42192D4DE3AC004CF16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7202FA06C6665C5A0DAE5F31 /* Pods-TimeLiveActivityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeLiveActivity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeLiveActivity";
+			};
+			name = Release;
+		};
+		D31F421B2D4DE3AC004CF16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1BB6DBEB5F8BDADA5A0C42 /* Pods-TimeLiveActivity-TimeLiveActivityUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeLiveActivity;
+			};
+			name = Debug;
+		};
+		D31F421C2D4DE3AC004CF16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA778BF91275BE0D1DEEE5C /* Pods-TimeLiveActivity-TimeLiveActivityUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeLiveActivity;
+			};
+			name = Release;
+		};
+		D31F42532D4DE58D004CF16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F492K7L68M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeLiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivity.TimeLiveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31F42542D4DE58D004CF16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F492K7L68M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeLiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.mfs.TimeLiveActivity.TimeLiveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31F41E42D4DE3AA004CF16A /* Build configuration list for PBXProject "TimeLiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F42152D4DE3AC004CF16A /* Debug */,
+				D31F42162D4DE3AC004CF16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F42122D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F42132D4DE3AC004CF16A /* Debug */,
+				D31F42142D4DE3AC004CF16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F42172D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F42182D4DE3AC004CF16A /* Debug */,
+				D31F42192D4DE3AC004CF16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F421A2D4DE3AC004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveActivityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F421B2D4DE3AC004CF16A /* Debug */,
+				D31F421C2D4DE3AC004CF16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F42522D4DE58D004CF16A /* Build configuration list for PBXNativeTarget "TimeLiveWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F42532D4DE58D004CF16A /* Debug */,
+				D31F42542D4DE58D004CF16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31F41E12D4DE3AA004CF16A /* Project object */;
+}
